@@ -1,0 +1,616 @@
+/* PAGE DE STYLE */
+
+/* Style général de la page */
+
+body{
+	margin: 0px;
+	background-color: #003333 ;
+	font-family: Calibri;
+}
+
+p{
+	font-size: 1.3em;
+}
+
+.texte_valorise{
+	font-weight: bold;
+}
+
+/* //////////////////////////////////////////////////////////// */
+/* ENTETE DE LA PAGE */
+
+.entete{
+	background-color: #CC0000;
+	height: 50px;
+}
+
+.btn_adresse{
+	background-color: #C0C0C0;
+	display: inline-block;
+	width: 20%;
+	position: absolute;
+	height: 50px;
+	right: 5%;
+	text-align: center;
+	padding: 0;
+}
+
+.btn_adresse:hover{
+	background-color: white;
+	border: solid;
+	border-color: #003333;
+	border-width: 2px;
+	color : #CC0000;
+	cursor: pointer;
+}
+
+.entete .texte_vert:hover{
+	color : #CC0000;
+}
+
+#logo_localisation{
+	display: inline-block;
+	width: 20px;
+	height: 35px;
+	background-image: url('images/localisation.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-right: 10px;
+	margin-top: 8px;
+	margin-bottom: 0;
+	vertical-align: middle;
+}
+
+.texte_vert{
+	display: inline-block;
+	vertical-align: middle;
+	color: #003333;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.7em;
+	margin : 0 auto;
+}
+
+.bloc_page{
+	margin: auto;
+	width: 90%;
+	position: relative;
+}
+
+/* //////////////////////////////////////////////////////////// */
+
+/*Header*/
+header{
+	
+}
+
+#div_logo{
+	background-image: url('images/logo_evtp.png');
+	background-repeat: no-repeat;
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	background-size: 100%;
+	text-align: center;
+	margin-top: -50px;
+}
+
+#div_titre h1 a{
+	text-decoration: none;
+	color: white;
+}
+
+#div_logo, #div_titre{
+	display: inline-block;
+}
+
+
+/*Navigateur*/
+
+#navigateur {
+	display: inline-block;
+	font-weight: bold;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+#navigateur ul {
+	list-style-type: none;
+	display: inline-block;
+	width: 100%;
+	padding: 0;
+}
+
+#navigateur li {
+	display: inline-block;
+	background-color: #C0C0C0;
+	margin: auto;
+	width: 16.2%;
+	text-align: center;
+}
+
+#navigateur a {
+	color: #003333;
+	text-decoration: none;
+}
+#navigateur li:hover {
+	background-color: #CC0000;
+}
+
+#navigateur a:hover {
+	color: white;
+}
+
+/* //////////////////////////////////////////////////////////// */
+
+/*Corps de la page*/
+.les_articles{
+	display: inline-block;
+	width: 70%;
+}
+
+.les_articles, aside{
+	vertical-align: top;
+}
+
+.article{
+	background-color: white;
+	margin-top: 40px;
+	padding-bottom: 40px;
+}
+
+.barre-rouge{
+	width: 100%;
+	height: 15px;
+	background-color: #CC0000;
+}
+
+.bloc_titre_article{
+	height: 40px;
+	margin: 0;
+	background-color: #C0C0C0;
+	padding: 10px;
+
+}
+
+#description{
+	width: 540px;
+}
+#situer{
+	width: 170px;
+}
+
+#titre_chantiers{
+	width: 400px;
+}
+
+#titre_contacter{
+	width: 230px;
+}
+
+#titre_formulaire{
+	width: 330px;
+}
+
+#titre_galerie{
+	width: 220px;
+}
+
+#nos_sites{
+	width: 270px;
+}
+
+#activite{
+	width: 180px;
+}
+
+#certification{
+	width: 250px;
+}
+
+#logo_telephone{
+	background-image: url('images/tel.png');
+	background-size: 100%;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#libelle_tel{
+	display: inline-block;
+	font-weight: bold;
+	text-transform: uppercase;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+
+.titre_article h1{
+	margin: 0;
+}
+
+.bloc_texte{
+	text-align: justify;
+	padding: 20px;
+}
+
+.bloc_carte{
+	text-align: center;
+	padding: 20px;
+}
+
+.bloc_adresse{
+	width: 76%;
+	margin: auto;
+	padding-bottom: 30px;
+}
+
+.bloc_adresse p{
+	text-align: justify;
+}
+
+#btn_plus_infos{
+	background-color: #CC0000;
+	width: 22%;
+	text-align: center;
+	border-radius: 5px;
+	margin: auto;
+}
+
+#btn_plus_infos:hover{
+	background-color: #003333;
+}
+
+#btn_plus_infos p{
+	font-size: 1.4em;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+}
+
+#separateur2 {
+	width: 100%;
+	height: 3px;
+	background-color: #003333;
+}
+
+#separateur3 {
+	width: 100%;
+	height: 1px;
+	background-color: #003333;
+}
+
+aside{
+	display: inline-block;
+	width: 29%;
+	position: absolute;
+	right: 0;
+}
+
+.decouvrez_galerie{
+	background-color: #C0C0C0;
+	margin-top: 40px;
+	padding-bottom: 20px;
+}
+
+#titre_decouvrez_galerie{
+	padding: 10px;
+}
+
+#image_galerie{
+	width: 90%;
+	height: 210px;
+	border: solid;
+	border-color: #003333;
+	margin : auto;
+	padding-left: 0;
+	background-image: url('images/photo_chantier.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#image_galerie:hover{
+	border-color: #CC0000;
+}
+
+.prise-rdv{
+	background-color: #C0C0C0;
+	margin-top: 20px;
+	padding: 10px;
+	text-align: center;
+}
+
+#texte_prise_rdv{
+	color: #CC0000;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1.6em;
+	display: inline-block;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#texte_prise_rdv:hover{
+	color: #003333;
+}
+
+#logo_prise_rdv{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background-image: url('images/logo_calendrier.png');
+	background-size: 100%;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 20px;
+}
+
+#texte_prise_rdv, #logo_prise_rdv{
+	vertical-align: middle;
+}
+
+.actualite{
+	background-color: #C0C0C0;
+	margin-top: 20px;
+	
+}
+
+#titre_actualite{
+	padding: 10px;
+}
+
+#separateur4{
+	width: 75%;
+	background-color: #003333;
+	height: 1px;
+}
+
+/* //////////////////////////////////////////////////////////// */
+/* NOS SITES */
+
+.titre_sites{
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	font-size: 1.3em;
+}
+
+#nom_carriere{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#logo_montbard{
+	background-image: url('images/montbard.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 40px;
+}
+
+#carte_des_sites{
+	background-image: url('images/carte_sites.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:100%;
+
+}
+
+
+/* //////////////////////////////////////////////////////////// */
+/* GALERIE PHOTOS*/
+#wrapper {
+	margin: auto;
+}
+#inner {
+	width: 80%;
+	margin: auto;
+	margin-top: 60px;
+}
+#carousel-wrapper {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+ 
+	background: #fff;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+	width: 100%;
+	padding: 20px;
+}
+#carousel {
+	width: 800px;
+	height: 500px;
+	overflow: hidden;
+}
+#carousel img {
+	display: block;
+	float: left;
+}
+#pager-wrapper {
+	height: 120px;
+	width: 100%;
+	overflow: hidden;
+
+	bottom: -35px;
+	left: 0;
+	z-index: 2;
+}
+#pager img {
+	cursor: pointer;
+	background: #fff;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+	display: block;
+	width: 80px;
+	height: 80px;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+}
+#pager img:hover {
+	background: #eff;
+}
+#pager img.selected {
+	background: #dff;
+}
+
+/* //////////////////////////////////////////////////////////// */
+/*Formulaire*/ 
+#div_formulaire{
+	text-align: justify;
+	padding: 20px;
+}
+
+#formulaire_ajout{
+	background-color: #C0C0C0;
+	border-radius: 10px;
+
+	margin: 30px;
+}
+
+#formulaire_ajout fieldset {
+	border: none;
+}
+
+form#formulaire_ajout ol li {
+	line-height: 30px;
+	list-style: none;
+	padding: 5px 10px;
+}
+
+form#formulaire_ajout label {
+	float: left;
+	width: 200px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.tab_client .btn_radio{
+	width: 30px;
+	margin: 0;
+}
+
+form fieldset input, textarea, select {
+	padding: 3px;
+	border:1px;
+	border-color: black;
+	border-radius: 2px;
+	width: 250px;
+}
+
+li#toHide {
+	display: none;
+}
+
+.choix_communication label{
+	font-size: 0.8em;
+	width: 100px;
+}
+.choix_communication input{
+	width: 10px;
+}
+
+.btn_submit {
+	background-color: #CC0000;
+	border: none;
+	border-radius: 5px;
+	display: block;
+	margin: auto;
+	padding: 7px 25px;
+	font-size: 1em;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+}
+
+.btn_submit:hover {
+	background: #003333;
+	cursor: pointer;
+}
+
+#separateur5{
+	width: 75%;
+	background-color: #003333;
+	height: 2px;
+}
+/*Fin du formulaire*/
+
+/* //////////////////////////////////////////////////////////// */
+
+/*Footer*/ /*S'applique à toutes les pages*/
+footer {
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	margin-top: 300px;
+	background: #C0C0C0;
+}
+
+.titre_footer{
+	font-weight: bold;
+	font-size: 2em;
+}
+
+#menu_footer {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#about, #partenaires, #connect {
+	width: 18%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+#about {
+	margin-right: 80px;
+	margin-left: 0px;
+}
+
+#connect {
+	margin-left: 80px;
+	margin-right: 0px;
+}
+
+footer ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+footer a {
+	color: black;
+	text-decoration: none;
+	font-size: 1.4em;s
+}
+
+footer a:hover {
+	color: white;
+}
+
+footer li img {
+	vertical-align: middle;
+}
+
+.separateur {
+	width: 60%;
+	height: 2px;
+	background-color: #003333;
+}
+
+footer p {
+	font-size: 1.3em;
+	color: white;
+}
+/*Fin du Footer*/
+/* //////////////////////////////////////////////////////////// */
